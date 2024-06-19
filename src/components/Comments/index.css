@@ -1,0 +1,111 @@
+/* Write your CSS here */
+
+.main-bg {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.form-styling {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: 40vh;
+}
+
+.input-alignment {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+}
+
+.input-description {
+  margin: 20px;
+  margin-left: 0px;
+  color: #475569;
+  font-family: 'Roboto';
+  justify-content: start;
+}
+
+.name-input {
+  height: 30px;
+  width: 40vh;
+  color: #334155;
+  margin: 20px;
+  margin-left: 0px;
+  font-family: 'Roboto';
+  border-color: #cbd2d9;
+  border-radius: 8px;
+}
+
+.comment-input {
+  height: 20vh;
+  width: 40vh;
+  color: #334155;
+  margin: 20px;
+  margin-left: 0px;
+  font-family: 'Roboto';
+  border-color: #cbd2d9;
+  border-radius: 8px;
+}
+
+.button-styling {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  border: none;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  height: 28px;
+  width: 15vh;
+}
+
+.input-img-styling {
+  width: 50vh;
+  height: 40vh;
+}
+
+.line-styling {
+  color: #000000;
+  height: 10px;
+}
+
+.unordered-list-styling {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.count-styling {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.comment-count-styling {
+  color: #475569;
+  font-family: 'Roboto';
+}
